@@ -1,10 +1,20 @@
-import React from 'react'
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
+import Layout from './Layout'
+import Home from './pages/Home'
 
 const App = () => {
+
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path='/' element={<Layout/>} >
+        <Route path='' element={<Home />} />
+
+      </Route>
+    )
+  )
+
   return (
-    <div>
-      <h1 className='text-center font-bold text-lg text-orange-950 bg-lime-300'>PortFoliio Website</h1>
-    </div>
+    <RouterProvider router={router} />
   )
 }
 
