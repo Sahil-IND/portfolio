@@ -36,7 +36,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="h-[40rem]">
+    <div id='skilll'className="h-[40rem]">
       <div className="group mb-10 w-[195px]">
         <h2 className="text-left ml-24 text-5xl mt-24  font-semibold relative cursor-pointer w-[195px]">
           My Skills
