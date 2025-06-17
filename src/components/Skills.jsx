@@ -38,7 +38,7 @@ const Skills = () => {
   return (
     <div id='skilll'className="h-[40rem]">
       <div className="group mb-10 w-[195px]">
-        <h2 className="text-left ml-24 text-5xl mt-24  font-semibold relative cursor-pointer w-[195px]">
+        <h2 className="text-left ml-24 text-5xl mt-24  font-semibold relative cursor-pointer w-[195px] text-[#00bcd4]">
           My Skills
         </h2>
         <div className="h-1 w-0 ml-24 bg-[#00bcd4] mt-2 mb-12 transition-all duration-300 group-hover:w-full mx-auto"></div>

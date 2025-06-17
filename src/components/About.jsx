@@ -1,18 +1,14 @@
 import React from 'react'
 import devImage from '../assets/dev.png'
 
-<div className='group mb-10'>
-        <h2 className="text-5xl font-bold text-center cursor-pointer">
-          Contact Me
-        </h2>
-        <div className="h-1 w-0 bg-[#00bcd4] mt-2 transition-all duration-300 group-hover:w-full mx-auto"></div>
-      </div>
+
+
 
 const About = () => {
   return (
     <div id='about' className="about w-[100%] h-[40rem] ">
-              <div className="group mb-10">
-                <h2 className='text-left ml-24 text-5xl mt-20 font-semibold relative cursor-pointer'>About Me</h2>
+              <div className="group ">
+                <h2 className='text-left ml-24 text-5xl mt-20 font-semibold relative cursor-pointer text-[#00bcd4]'>About Me</h2>
                 <div className="h-1 w-0 bg-[#00bcd4] mt-2 transition-all duration-300 group-hover:w-[215px] ml-24"></div>
               </div>
               <div className="w-[100%] h-[40rem] flex justify-around">
