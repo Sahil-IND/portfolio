@@ -13,7 +13,7 @@ const About = () => {
               </div>
               <div className="w-[100%] h-[40rem] flex justify-around">
                 <div className='w-[55%] h-[80%] flex justify-center items-center text-2xl ml-24'>
-                <p className='text-gray-400'>I am a Frontend developer with a year of experience in building web applications. I specialize in the React and other modern technologies to build real-world projects with seamless user experiences and master modern web technologies. Outside of coding, I enjoy continuous learning and sharing knowledge with others. </p>
+                <p className='text-gray-400'>I am a Frontend developer with almost a year of experience in building web applications. I specialize in the React and other modern technologies to build real-world projects with seamless user experiences and master modern web technologies. Outside of coding, I enjoy continuous learning and sharing knowledge with others. </p>
     
                 
               </div>
