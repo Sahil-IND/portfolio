@@ -7,9 +7,9 @@ import devImage from '../assets/dev.png'
 const About = () => {
   return (
     <div id='about' className="about w-[100%] h-[40rem] ">
-              <div className="group ">
-                <h2 className='text-left ml-24 text-5xl mt-20 font-semibold relative cursor-pointer text-[#00bcd4]'>About Me</h2>
-                <div className="h-1 w-0 bg-[#00bcd4] mt-2 transition-all duration-300 group-hover:w-[215px] ml-24"></div>
+              <div className="group w-[215px]">
+                <h2 className='text-left w-full ml-24 text-5xl mt-20 font-semibold relative cursor-pointer text-[#00bcd4]'>About Me</h2>
+                <div className="h-1 w-0 bg-[#00bcd4] mt-2 transition-all duration-300 group-hover:w-full ml-24"></div>
               </div>
               <div className="w-[100%] h-[40rem] flex justify-around">
                 <div className='w-[55%] h-[80%] flex justify-center items-center text-2xl ml-24'>

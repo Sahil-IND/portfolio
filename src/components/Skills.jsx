@@ -54,7 +54,7 @@ const Skills = () => {
           <OneSkill key={index} skill={item.skill} Icon={item.Icon} />
         ))}
       </div>
-      <hr className="border-00; bg-blue-600 h-[2.8px] mb-[40px] mx-[84px]" />
+      <hr className="border-00; bg-blue-600 h-[2.8px] mx-[84px]" />
     </div>
   );
 };
