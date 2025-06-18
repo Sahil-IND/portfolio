@@ -1,47 +1,52 @@
-// src/data.js
+import shopikit from './assets/shopikit.png'
+import pass from './assets/pass.png'
+import weather from './assets/weather.png'
+import todo from './assets/todo.png'
+import Devpool_2 from './assets/Devpool_2.png'
+import curr from './assets/curr.png'
 
 const projectData = [
   {
-    img: "https://via.placeholder.com/400x250?text=Project+1",
-    title: "Devpool:- GitHub Finder",
-    desc: "An App to search GitHub users using GitHub's public API.",
-    site: "https://live-site.com/project1",
-    code: "https://github.com/username/project1"
+    img: Devpool_2,
+    title: "Devpool: GitHub Finder",
+    desc: "A pure JavaScript app using GitHub's public API to search and view GitHub user profiles and uses Light and Dark Mode.",
+    site: "https://dev-pool-git-main-sahil-inds-projects.vercel.app/",
+    code: "https://github.com/Sahil-IND/DevPool"
   },
   {
-    img: "https://via.placeholder.com/400x250?text=Project+2",
-    title: "Portfolio Website",
-    desc: "Personal portfolio to showcase my work, built using React and Tailwind CSS.",
-    site: "https://live-site.com/project2",
-    code: "https://github.com/username/project2"
-  },
-  {
-    img: "https://via.placeholder.com/400x250?text=Project+3",
+    img: weather,
     title: "Weather App",
-    desc: "A weather forecast app using OpenWeather API with dynamic UI updates.",
-    site: "https://live-site.com/project3",
-    code: "https://github.com/username/project3"
+    desc: "Weather forecasting app using OpenWeather API. Displays data in multiple organized tabs.",
+    site: "https://weather-app-six-drab-79.vercel.app/",
+    code: "https://github.com/Sahil-IND/Weather-App"
   },
   {
-    img: "https://via.placeholder.com/400x250?text=Project+4",
-    title: "Task Manager",
-    desc: "A simple task management app with filtering and persistence using local storage.",
-    site: "https://live-site.com/project4",
-    code: "https://github.com/username/project4"
+    img: todo,
+    title: "ToDo List",
+    desc: "A React-based task app with add, delete, edit, and complete functionality using Context API and local storage.",
+    site: "https://todo-app-sahil-inds-projects.vercel.app/",
+    code: "https://github.com/Sahil-IND/todo-list"
   },
   {
-    img: "https://via.placeholder.com/400x250?text=Project+5",
+    img:curr,
     title: "Currency Convertor",
-    desc: "A React Based Curency Convertor Tool",
-    site: "https://live-site.com/project5",
+    desc: "A stylish React-based currency conversion tool with real-time rates and a clean UI.",
+    site: "https://currency-convertor-two-omega.vercel.app/",
     code: "https://github.com/Sahil-IND/Currency-convertor"
   },
   {
-    img: "https://via.placeholder.com/400x250?text=Project+6",
-    title: "E-commerce Store",
-    desc: "A basic e-commerce site with product listings, cart, and checkout using fake API.",
-    site: "https://live-site.com/project6",
-    code: "https://github.com/username/project6"
+    img: pass,
+    title: "Password Generator",
+    desc: "A pure JavaScript app to generate strong, random passwords with copy-to-clipboard functionality.",
+    site: "https://password-genrator-flax.vercel.app/",
+    code: "https://github.com/Sahil-IND/Password-Genrator"
+  },
+  {
+    img: shopikit,
+    title: "ShopiKit: E-commerce Store",
+    desc: "A fully responsive e-commerce site built with React and Redux Toolkit, featuring products, cart, and checkout.",
+    site: "https://live-site.com/shopikit",
+    code: "https://github.com/username/shopikit"
   }
 ];
 
