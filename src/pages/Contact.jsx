@@ -94,7 +94,7 @@ const Contact = () => {
           </div>
           <div className="flex items-center gap-3">
             <FiPhone className="text-[#00bcd4] text-2xl md:text-3xl" />
-            <span>7827271983</span>
+            <span>+91 7827271983</span>
           </div>
 
 
