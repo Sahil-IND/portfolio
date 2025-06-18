@@ -5,7 +5,7 @@ import projectData from "../projectData";
 const Projects = () => {
   return (
     <>
-      <div className="group mb-10 w-[260px]">
+      <div id="projects" className="group mb-10 w-[260px]">
         <h2 className="text-left ml-24 text-5xl mt-12  font-semibold relative cursor-pointer w-[260px] text-[#00bcd4]">
           My Projects
         </h2>

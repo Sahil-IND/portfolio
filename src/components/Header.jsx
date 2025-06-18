@@ -1,5 +1,7 @@
 
 import { Link } from "react-router-dom";
+import { FiArrowDownRight } from "react-icons/fi";
+
 
 const Header = () => {
   
@@ -43,9 +45,10 @@ const Header = () => {
         </div>
         <div>
           <Link to="/contact">
-            <button className="bg-yellow-400 text-black px-4 py-2 rounded-full border-2 border-blue-[0f172a] font-semibold hover:bg-yellow-300 transition duration-300 cursor-pointer ">
-              Hire Me
-            </button>
+            <button className="flex items-center gap-2 bg-yellow-400 text-black px-5 py-2 rounded-full border-2 border-[#0f172a] font-semibold hover:bg-yellow-300 transition duration-300 cursor-pointer">
+      Hire Me
+      <FiArrowDownRight className="text-lg" />
+    </button>
           </Link>
         </div>
       </div>

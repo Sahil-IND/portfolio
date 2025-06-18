@@ -21,6 +21,8 @@ const Home = () => {
 
         <Projects />
 
+        <hr className='border-00; bg-blue-600 h-[1.8px] my-[20px] mx-[84px]'/>
+
 
     </main>
   )
