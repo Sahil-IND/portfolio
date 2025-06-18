@@ -3,8 +3,8 @@
 const projectData = [
   {
     img: "https://via.placeholder.com/400x250?text=Project+1",
-    title: "GitHub Finder",
-    desc: "A React app to search GitHub users using GitHub's public API.",
+    title: "Devpool:- GitHub Finder",
+    desc: "An App to search GitHub users using GitHub's public API.",
     site: "https://live-site.com/project1",
     code: "https://github.com/username/project1"
   },
@@ -31,10 +31,10 @@ const projectData = [
   },
   {
     img: "https://via.placeholder.com/400x250?text=Project+5",
-    title: "Blog Platform",
-    desc: "Minimal blogging platform with markdown support and user authentication.",
+    title: "Currency Convertor",
+    desc: "A React Based Curency Convertor Tool",
     site: "https://live-site.com/project5",
-    code: "https://github.com/username/project5"
+    code: "https://github.com/Sahil-IND/Currency-convertor"
   },
   {
     img: "https://via.placeholder.com/400x250?text=Project+6",

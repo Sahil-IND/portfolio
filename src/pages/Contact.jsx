@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import mailImg from "../assets/mail.png";
 import { FiMail, FiPhone } from "react-icons/fi";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const [formData, setformData] = useState({
@@ -12,9 +13,15 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!formData.name || !formData.email || !formData.message) return;
+    if (!formData.name || !formData.email || !formData.message){
+      toast.warn("Complete the Remaing Form")
+    }else{
+      toast.success("Form Submitted Successfully")
+    }
+    
     
   };
+
 
   const handleInput = (e) => {
     const { name, value } = e.target;
@@ -42,12 +49,11 @@ const Contact = () => {
             Feel free to reach out if you'd like to collaborate – you're just a few clicks away!
           </p>
 
-          <form onSubmit={handleSubmit} className="flex flex-col gap-6">
+          <form autoComplete="off" onSubmit={handleSubmit} className="flex flex-col gap-6">
             <input
               type="text"
               name="name"
               placeholder="Your Name"
-              required
               className="h-12 rounded-md bg-[#1e1b24] px-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00bcd4]"
               value={formData.name}
               onChange={handleInput}
@@ -56,7 +62,6 @@ const Contact = () => {
               type="email"
               name="email"
               placeholder="Your Email"
-              required
               className="h-12 rounded-md bg-[#1e1b24] px-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00bcd4]"
               value={formData.email}
               onChange={handleInput}
@@ -65,7 +70,6 @@ const Contact = () => {
               name="message"
               rows="6"
               placeholder="Message"
-              required
               className="rounded-md bg-[#1e1b24] p-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00bcd4]"
               value={formData.message}
               onChange={handleInput}
